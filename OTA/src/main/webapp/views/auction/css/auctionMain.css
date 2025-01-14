@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+h1{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+div{
+	display: block;
+}
+
+#auction_container{
+	width : 85%;
+	margin : 0 auto;
+	padding-top: 30px;
+}
+
+#auction_search_form{
+	margin-top : 5px;
+	margin-bottom : 10px;
+	display:flex;
+
+	justify-content: flex-end;
+}
+
+#auction_search_form select{
+	width:120px;
+	margin-right:5px;
+	
+}
+
+#auction_search_form input{
+	width:350px;
+	margin-right:5px;
+}
+
+/* #auction_search_form button{ */
+/* 	width:120px; */
+
+/* } */
+
+.category-banner ul {
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 1px solid #e5e5e5;
+	border-left: 1px solid #e5e5e5;
+	padding: 0;
+}
+
+.category-banner ul li {
+    height: 45px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    text-align: center;
+    float: left;
+}
+
+.category-banner ul li a {
+	display: inline-block;
+	width: 100%;
+    height: 100%;
+	color: black;
+	z-index: 2;
+	outline: 0;
+	align-content: center;
+	font-size: 13px;
+}
+
+/* .thumnail{ */
+/* 	display: flex; */
+/* 	flex-wrap: wrap; */
+/* 	border-top: 1px solid #e5e5e5; */
+/* 	border-left: 1px solid #e5e5e5; */
+/* 	padding: 0; */
+/* } */
+
+/* .thumnail-list ul li{ */
+/* 	height: 45px; */
+/*     position: relative; */
+/*     background: #fff; */
+/*     box-sizing: border-box; */
+/*     border-bottom: 1px solid #e5e5e5; */
+/*     border-right: 1px solid #e5e5e5; */
+/*     text-align: center; */
+/*     float: left; */
+/* } */
+
+.thumnail-list ul {
+	display: flex;
+	flex-wrap: wrap;
+/* 	border-top: 1px solid #e5e5e5; */
+/* 	border-left: 1px solid #e5e5e5; */
+/* 	padding-top: 1px; */
+/* 	padding-left: 1px; */
+	margin: 0;
+
+
+}
+
+.thumnail-list ul li {
+    height: 100px;
+    position: relative;
+    background: #fff;
+    box-sizing: border-box;
+    width: 350px;
+/*     margin-right: auto; */
+    border: 1px solid #e5e5e5;
+/*     border-right: 1px solid #e5e5e5; */
+    text-align: center;
+/*     align-items: center; */
+    float: left;
+/*     align-self: baseline; */
+	margin: 10px;
+    
+}
+
+/* .thumnail-list ul li .subject-box{ */
+/* 	display: flex; */
+/* } */
+
+
+
+.thumnail-list ul li p{
+	width: 100%;
+}
+
+.thumnail-list ul li .subject a{
+	font-size: 15px;
+	color: black;
+}
+
+.thumnail-list ul li p.highest-bid{
+	font-size: 13px;
+	color: #999;
+}
+
+/* .thumnail-list ul.thumnail li .thumnail-box .button-box .btn dl dt img, .thumnail-list ul.thumnail li .thumnail-box .button-box .btn dl dt a { */
+/*     display: block; */
+/* } */
+
+/* .thumnail-list ul.thumnail{ */
+/* 	display: flex; */
+/* 	flex-wrap: wrap; */
+/* } */
+
+/* .thumnil-list ul.thumnail li .thumnail-box .img-box{ */
+/* 	position: relative; */
+/* 	width: 100%; */
+/* 	box-sizing: border-box; */
+/* 	border: 1px solid #ccc; */
+/* } */
+
+/* .thumnail-list ul.thumnail li .thumnail .subject-box{ */
+/* 	width: 100%; */
+/* 	display: flex; */
+/* 	height: 30px; */
+/* } */
+
+/* .thumnail-list ul.thumnail li .thumnail-box .img-box img { */
+/*     position: absolute; */
+/*     top: 0; */
+/*     left: 0; */
+/*     width: 100%; */
+/*     height: 100%; */
+/* } */
+
+/* .thumnail-list ul.thumnail li .thumnail-box .subject-box .subject a { */
+/*     font-family: 'malgun'; */
+/*     font-size: 13px; */
+/*     color: #000; */
+/*     line-height: 30px; */
+/*     letter-spacing: -0.5px; */
+/* } */
+
+/* .main-thumnail-list ul.thumnail li:nth-child(4n+1) { */
+/* 	margin-left: 0; */
+/* } */
+
+
+
+/* .thumnail-list ul.thumnail li .thumnail-box .subject-box .subject { */
+/*     width: calc(100% - 50px); */
+/*     overflow: hidden; */
+/*     text-overflow: ellipsis; */
+/*     white-space: nowrap; */
+/* } */
+
+/* ul { */
+/*     display: block; */
+/*     list-style-type: disc; */
+/*     margin-block-start: 1em; */
+/*     margin-block-end: 1em; */
+/*     margin-inline-start: 0px; */
+/*     margin-inline-end: 0px; */
+/*     padding-inline-start: 40px; */
+/*     unicode-bidi: isolate; */
+/* } */
+
+/* .thumnail-list ul.thumnail li .thumnail-box { */
+/*     line-height: 1; */
+/* } */
+
+/* .thumnail-list ul.thumnail li .thumnail-box .subject-box .highest-bid { */
+/*     width: 50px; */
+/*     font-size: 12px; */
+/*     color: #999; */
+/*     text-align: right; */
+/*     line-height: 30px; */
+/* } */

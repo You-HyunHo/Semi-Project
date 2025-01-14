@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>OTA</display-name>
+  <welcome-file-list>
+    <welcome-file>welcome</welcome-file>
+  </welcome-file-list>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/views/common/error404.jsp</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/views/common/error500.jsp</location>
+  </error-page>
+  <servlet>
+    <description></description>
+    <display-name>MemberFrontController</display-name>
+    <servlet-name>MemberFrontController</servlet-name>
+    <servlet-class>ota.controller.MemberFrontController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MemberFrontController</servlet-name>
+    <url-pattern>/MemberFrontController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EmailController</display-name>
+    <servlet-name>EmailController</servlet-name>
+    <servlet-class>ota.controller.EmailController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EmailController</servlet-name>
+    <url-pattern>/EmailController</url-pattern>
+  </servlet-mapping>
+</web-app>
